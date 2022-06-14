@@ -45,17 +45,12 @@ body {
     color: orange;
 }
 
-.contacts-link {
+.section-link {
     text-decoration: none;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .section {
-    width: 50%;
+    display: flex;
 }
 
 img {
@@ -84,3 +79,22 @@ img {
 .avatar {
     border-radius: 50%;
 }
+
+.section-title {
+    float: right;
+    width: 40%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section-list {
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+
+.section-code {
+    float: left;
+    width: 60%;
+    text-align: left;
+  }
