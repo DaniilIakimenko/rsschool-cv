@@ -1,0 +1,44 @@
+.header {
+  background-color: rgb(var(--co-light-black-rgb));
+}
+
+.section-profile {
+  position: relative;
+
+  padding: 30px 0 0 0;
+
+  text-align: center;
+}
+
+.section-profile::after {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100vw;
+  height: 2px;
+
+  background-color: rgba(var(--co-white-rgb), 0.05);
+}
+
+.section-profile img {
+  width: 200px;
+  aspect-ratio: 1;
+  margin: 0 auto 10px;
+
+  border-radius: 100px;
+}
+
+.section-profile-content {
+  margin: 0 0 20px 0;
+}
+
+.section-profile-title {
+  color: rgb(var(--co-white-rgb));
+}
+
+.section-profile-subtitle {
+  color: rgba(var(--co-white-rgb), var(--opacity));
+}

@@ -1,0 +1,39 @@
+.nav {
+ padding: 15px 40px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: min(40px, 4vw);
+}
+
+.nav-link {
+  position: relative;
+
+  color: rgba(var(--co-white-rgb), var(--opacity));
+}
+
+.nav-link::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -10px;
+
+  height: 1px;
+
+  background-color: rgb(var(--co-white-rgb));
+
+  transition: right .22s;
+}
+
+.nav-link:hover {
+  color: rgb(var(--co-white-rgb));
+}
+
+.nav-link:hover::after {
+  right: 0;
+}
