@@ -6,15 +6,33 @@ body {
 }
 
 p,
-a {
+a,
+li {
   color: rgba(var(--co-black-rgb), var(--opacity));
+}
+
+span {
+  font-weight: 600;
+  color: rgb(var(--co-light-black-rgb));
 }
 
 a {
   text-decoration: none;
+
+  transition: all .22s;
+}
+
+a:hover {
+  color: rgb(var(--co-black-rgb));
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+@media (width <= 1440px) {
+  .container {
+    padding: 0 20px;
+  }
 }

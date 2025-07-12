@@ -1,5 +1,5 @@
 .nav {
- padding: 15px 40px;
+ padding: 0 40px;
 }
 
 .nav-list {
@@ -12,6 +12,7 @@
 .nav-link {
   position: relative;
 
+  line-height: 50px;
   color: rgba(var(--co-white-rgb), var(--opacity));
 }
 
@@ -21,7 +22,6 @@
   position: absolute;
   left: 0;
   right: 100%;
-  bottom: -10px;
 
   height: 1px;
 

@@ -1,0 +1,55 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section:not(.section-profile) {
+  position: relative;
+
+  width: 50%;
+  padding: 10px 10px 30px 10px;
+}
+
+.section:not(.section-profile)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 2px;
+  background-color: rgba(var(--co-black-rgb), var(--opacity));
+}
+
+.section-title {
+  margin: 20px 0;
+
+  text-decoration: underline;
+}
+
+.section-skills-wrapper {
+ display: flex;
+}
+
+.section-skills-tech {
+  margin: 0 50px 0 0;
+}
+
+.section-item {
+  margin: 0 0 10px 0;
+}
+
+.section-desc,
+.section-subtitle {
+  margin: 15px 0;
+}
+
+.pre {
+  margin: 0;
+  padding: 0;
+}
+
+@media (width <= 768px) {
+  .section:not(.section-profile) {
+    width: 100%;
+  }
+}
