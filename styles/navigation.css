@@ -16,7 +16,7 @@
   color: rgba(var(--co-white-rgb), var(--opacity));
 }
 
-.nav-link::after {
+.nav-link::before {
   content: "";
 
   position: absolute;
