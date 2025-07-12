@@ -5,6 +5,10 @@ body {
   background-color: rgb(var(--co-white-rgb));
 }
 
+ul {
+  list-style-type: circle;
+}
+
 p,
 a,
 li {

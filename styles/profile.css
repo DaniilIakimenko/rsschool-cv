@@ -1,5 +1,7 @@
 .header {
   background-color: rgb(var(--co-light-black-rgb));
+
+  overflow-x: hidden;
 }
 
 .section-profile {
