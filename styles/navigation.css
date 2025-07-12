@@ -34,6 +34,6 @@
   color: rgb(var(--co-white-rgb));
 }
 
-.nav-link:hover::after {
+.nav-link:hover::before {
   right: 0;
 }
