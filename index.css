@@ -1,0 +1,7 @@
+@import url(node_modules/@a1rth/css-normalize/normalize.css);
+@import url(styles/variables.css);
+@import url(styles/basic.css);
+@import url(styles/profile.css);
+@import url(styles/navigation.css);
+@import url(styles/main.css);
+@import url(styles/footer.css);
