@@ -1,17 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Daniil Iakimenko - CV</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <div class="container">
-      <div class="header__wrapper">
-        <img src="./img/my-photo.webp" alt="" class="my-photo">
-      </div>
+      <section class="section section-profile">
+        <img src="assets/img/my-photo.webp" alt="Photo" width="200" height="200">
+        <div class="section-profile-content">
+          <h1 class="section-profile-title">DANIIL IAKIMENKO</h1>
+          <p class="section-profile-subtitle">Junior Front-End Developer</p>
+        </div>
+      </section>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contact Information</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code Examples</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work Experience / Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
+
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contact Information</h2>
+        <ul class="section-list">
+          <li class="section-item"><span>Location: </span>Saint-Petersburg, Russia</li>
+          <li class="section-item"><span>Email: </span><a href="mailto:da.yakimenko@yandex.ru"
+              class="section-link">da.yakimenko@yandex.ru</a></li>
+          <li class="section-item"><span>Git-Hub: </span><a href="https://github.com/DaniilIakimenko"
+              class="section-link">DaniilIakimenko</a></li>
+          <li class="section-item"><span>Telegram: </span><a href="https://t.me/Daniil_Iakimenko"
+              class="section-link">@Daniil_Iakimenko</a></li>
+          <li class="section-item"><span>Discord: </span>DanielHum</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p class="section-desc">Aspiring developer with a problem-solving mindset and quick learning skills. Leveraging
+          experience in technical support (HTML/CSS/JS) to transition into development. Committed to continuous growth
+          while building meaningful and profitable solutions.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="section-skills-wrapper">
+          <div class="section-skills-tech">
+            <h3 class="section-subtitle">Technical Skills</h3>
+            <ul class="section-list">
+              <li class="section-item">HTML5, CSS3</li>
+              <li class="section-item">JavaScript Basics</li>
+              <li class="section-item">Git, GitHub</li>
+              <li class="section-item">VS Code</li>
+              <li class="section-item">Figma</li>
+            </ul>
+          </div>
+          <div class="section-skills-soft">
+            <h3 class="section-subtitle">Soft Skills</h3>
+            <ul class="section-list">
+              <li class="section-item">Problem-solving</li>
+              <li class="section-item">Quick learning</li>
+              <li class="section-item">Teamwork</li>
+              <li class="section-item">Time management</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code Examples</h2>
+        <pre class="pre"><code class="snippet">function typeOfSum(a, b) {
+  return typeof a === 'string' || typeof b === 'string' ? 'string' : 'number';
+}</code></pre>
+      </section>
+      <section class="section" id="work">
+        <h2 class="section-title">Work Experience / Projects</h2>
+        <h3 class="section-subtitle">Aivazovsky landing page</h3>
+        <ul class="section-list">
+          <li class="section-item"><span>GitHub Link: </span><a href="https://github.com/DaniilIakimenko/aivazovski_page"
+              class="section-link">aivazovski_page</a></li>
+          <li class="section-item"><span>Description: </span>My first landing page</li>
+          <li class="section-item"><span>Technologies used: </span>HTML, CSS</li>
+          <li class="section-item"><span>Key features: </span>Responsive/semantic HTML coding</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <h3 class="section-subtitle">B.Sc. in Information Systems and Technologies | Saint Petersburg State University
+          of Economics | 2016</h3>
+        <p class="section-desc"><span>Thesis - </span>CRM system for small businesses</p>
+        <h3 class="section-subtitle">Online Courses & Certifications</h3>
+        <p class="section-desc"><span>JavaScript Basics - </span><a href="https://ru.hexlet.io/courses/js-basics"
+            class="section-link">Hexlet</a> | 2024</p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="section-list">
+          <li class="section-item"><span>Russian: </span>Native</li>
+          <li class="section-item"><span>English: </span>A2</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="https://github.com/DaniilIakimenko" class="git-link">DaniilIakimenko</a>
+      <a href="https://rs.school/courses/javascript-ru"><img src="assets/svg/rs-school-logo.svg" alt="RS School logo" width="120"></a>
+      <div>2025</div>
+    </div>
+  </footer>
 </body>
+
 </html>
